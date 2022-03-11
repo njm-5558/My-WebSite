@@ -16,5 +16,37 @@ margin:30px 10px ;
 .card-text{font-size: 20px;
 margin: 20px;}
 .mail-link, .linkedin, .instagram{text-decoration: none;
+font-size: 18px;}:root{
+    --primary-color:#5D25E6;
+    --secondary-color:rgb(224, 220, 228);
+    --third-color:#FFEBF1;
+    --forth-color:#F0FBFD;
+    --box-shadow: 10px 10px 10px rgb(0,0,0,0.3);
+--border: 1px solid rgba(0,0,0,0.125);
+--heading-font-familyL:'Corinthia', cursive;
+--default-font-familyL:
+}
+.card-body{
+    background: var(--secondary-color );
+    padding: ;
+}
+.card-title{font-family: 'Corinthia', cursive;
+font-size: xx-large;
+margin:30px 10px ;
+}
+.card-text{font-size: 20px;
+margin: 20px;}
+.mail-link, .linkedin, .instagram{text-decoration: none;
 font-size: 18px;}
+.mail-link:hover{text-decoration: underline;}
+
+.main{ text-align: center;
+background: var(--secondary-color);
+padding: 120px 40px}
+.main p{font-size: 28px;}
+.main h2{font-size: 20px;
+color: rgb(71, 48, 48);}
+.intrudoction{padding: 20px;}
+.part{border: 1px solid black;
+}
 .mail-link:hover{text-decoration: underline;}
