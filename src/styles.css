@@ -33,3 +33,11 @@ color: rgb(71, 48, 48);}
 .part{border: 1px solid black;
 }
 .mail-link:hover{text-decoration: underline;}
+
+@media(max-width:600px){.contact-address{font-size: 22px;
+padding: 30px;}}
+.img-fluid{border: 1px solid blue;
+border-radius: 50%;
+width: 95px;
+display: block;
+margin: 50px;}
