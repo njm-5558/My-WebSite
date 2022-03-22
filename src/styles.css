@@ -39,11 +39,9 @@ padding: 30px;
 display: none;}
 .personal-info{display: none;}
 }
-.img-fluid{border: 1px solid blue;
-border-radius: 50%;
-width: 95px;
-display: block;
-margin:50px;
+.img-fluid{
+width: 200px;
+margin-left:900px;
 margin-top: 100px;}
 
 .contact-button{
@@ -57,4 +55,10 @@ margin-top: 100px;}
  top: 50px; 
 }
 
+.contact-address{font-family: 'Dancing Script', cursive;
+font-size: 40px;
+}
+.about-heading{font-family: 'Hurricane', cursive;
+font-size: 48px;
 
+}
