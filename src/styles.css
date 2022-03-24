@@ -6,8 +6,8 @@
     --forth-color:#F0FBFD;
     --box-shadow: 10px 10px 10px rgb(0,0,0,0.3);
 --border: 1px solid rgba(0,0,0,0.125);
---heading-font-familyL:font-family: 'Libre Baskerville', serif;
---default-font-familyL:font-family: 'Playfair Display', serif;
+--heading-font-familyL: "Playfair Display", serif;
+--default-font-familyL:"Poppins", sans-serif;
 }
 .narrow{margin-top: 100px;}
 .card-body{
@@ -27,6 +27,7 @@ font-size: 18px;}
 .main{ text-align: center;
 background: var(--secondary-color);
 padding: 100px 40px}
+.main h1{font-family: var(--heading-font-familyL);}
 .main p{font-size: 28px;
 font-family: var(--default-font-familyL);}
 .main h2{font-size: 20px;
