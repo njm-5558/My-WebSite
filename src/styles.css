@@ -9,6 +9,7 @@
 --heading-font-familyL:font-family: 'Libre Baskerville', serif;
 --default-font-familyL:font-family: 'Playfair Display', serif;
 }
+.narrow{margin-top: 100px;}
 .card-body{
     background: var(--secondary-color );
 }
@@ -34,7 +35,9 @@ color: rgb(71, 48, 48);}
 .part{border: 1px solid black;
 }
 .mail-link:hover{text-decoration: underline;}
-.intrudoction{line-height: 2;}
+.intrudoction{line-height: 2;
+font-size: 20px;
+font-family: var(--default-font-familyL);}
 
 @media(max-width:600px){.contact-address{font-size: 22px;
 padding: 30px;
@@ -59,27 +62,34 @@ margin-left: 250px;}
 .project-button{
  text-decoration:none ;
  border: 1px solid var(--primary-color);
- padding: 10px 30px;
- border-radius: 5px;
+ padding: 15px 30px;
+ border-radius: 7px;
  color:white;
  background:var(--primary-color);
  font-size: 20px;
 margin-left: 385px;
-margin-top: 100px;
 }
 .contact-address{font-family: var(--heading-font-familyL);
 font-size: 40px;
 margin: 60px;
 }
 .about-heading{font-family: var(--heading-font-familyL);
-font-size: 58px;
+font-size: 48px;
 margin-top:100px;
 }
 .about-paragraph{font-family: var(--default-font-familyL);
   
 font-size: 25px;}
 
-.work-heading{margin-top: 120px;
+.work-heading{margin-top: 55px;
+    margin-bottom: 50px;
 text-align: center;
 font-size: 50px;
 font-family: var(--heading-font-familyL);}
+
+.weatherApp-description{padding: 50px 1px 40px;
+    color: white;
+font-size: 20px;
+font-family: var(--default-font-familyL);}
+
+.body-work{background: linear-gradient(to top, #09203f 0%, #537895 100%);}
