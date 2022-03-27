@@ -87,7 +87,11 @@ margin-left: 385px;
 background:white;}
 .contact-address{font-family: var(--heading-font-familyL);
 font-size: 40px;
-margin: 60px;
+margin: 30px 100px;
+}
+.social-media{
+margin: 20px 100px;
+
 }
 .about-heading{font-family: var(--heading-font-familyL);
 font-size: 48px;
@@ -130,3 +134,12 @@ footer .social-links a:hover{
     color: white;
     background: var(--primary-color);
 }
+footer p{
+    font-size: 20px;
+}
+.work-footer{color: white;
+font-size: 20px;}
+
+.work-footer-email{color: white;
+font-size: 28px;
+text-decoration: none;}
