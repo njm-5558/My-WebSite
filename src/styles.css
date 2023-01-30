@@ -1,145 +1,202 @@
-
-:root{
-    --primary-color:#5D25E6;
-    --secondary-color:rgb(224, 220, 228);
-    --third-color:#FFEBF1;
-    --forth-color:#F0FBFD;
-    --box-shadow: 10px 10px 10px rgb(0,0,0,0.3);
---border: 1px solid rgba(0,0,0,0.125);
---heading-font-familyL: "Playfair Display", serif;
---default-font-familyL:"Poppins", sans-serif;
+:root {
+  --primary-color: #5d25e6;
+  --secondary-color: rgb(224, 220, 228);
+  --third-color: #ffebf1;
+  --forth-color: #f0fbfd;
+  --box-shadow: 10px 10px 10px rgb(0, 0, 0, 0.3);
+  --border: 1px solid rgba(0, 0, 0, 0.125);
+  --heading-font-familyL: "Playfair Display", serif;
+  --default-font-familyL: "Poppins", sans-serif;
 }
-.narrow{margin-top: 100px;}
-.card-body{
-    background: var(--secondary-color );
+.narrow {
+  margin-top: 100px;
 }
-
-.card-title{font-family: var(--heading-font-familyL);
-font-size: xx-large;
-margin:30px 10px ;
-}
-.card-text{font-size: 20px;
-margin: 20px;}
-.card-img-top{height: 390px;}
-
- .main h1{font-family: var(--heading-font-familyL);
-font-size: 85px;}
-
-.mail-link, .linkedin, .instagram{text-decoration: none;
-font-size: 18px;}
-.mail-link:hover{text-decoration: underline;}
-
-.main{ text-align: center;
-background: var(--secondary-color);
-padding: 75px 40px}
-
-.main p{font-size: 28px;
-font-family: var(--default-font-familyL);}
-.main h2{font-size: 30px;
-color: rgb(71, 48, 48);
-font-family: var(--default-font-familyL);}
-.intrudoction{padding: 20px;}
-.part{border: 1px solid black;
-}
-.mail-link:hover{text-decoration: underline;}
-.intrudoction{line-height: 2;
-font-size: 20px;
-font-family: var(--default-font-familyL);}
-
-@media(max-width:600px){.contact-address{font-size: 22px;
-padding: 30px;
-display: none;}
-}
-.img-fluid{
-width: 350px;
-border-radius: 20px;
-margin-top: 100px;
-margin-left: 250px;}
-
-.contact-button{
- text-decoration:none ;
- border: 1px solid var(--primary-color);
- padding: 10px 30px;
- border-radius: 5px;
- background: white;
- font-size: 20px;
- position: relative;
- top: 50px; 
- color: var(--primary-color);
+.card-body {
+  background: var(--secondary-color);
 }
 
-.contact-button:hover{background: var(--primary-color);
-    color: white;
+.card-title {
+  font-family: var(--heading-font-familyL);
+  font-size: xx-large;
+  margin: 30px 10px;
+}
+.card-text {
+  font-size: 20px;
+  margin: 20px;
+}
+.card-img-top {
+  height: 350px;
+  width: 200;
 }
 
-.project-button{
- text-decoration:none ;
- border: 1px solid var(--primary-color);
- padding: 15px 30px;
- border-radius: 7px;
- color:white;
- background:var(--primary-color);
- font-size: 20px;
-margin-left: 385px;
+.main h1 {
+  font-family: var(--heading-font-familyL);
+  font-size: 80px;
 }
 
-.project-button:hover{color: var(--primary-color);
-background:white;}
-.contact-address{font-family: var(--heading-font-familyL);
-font-size: 40px;
-margin: 30px 100px;
+.mail-link,
+.linkedin,
+.instagram {
+  text-decoration: none;
+  font-size: 18px;
 }
-.social-media{
-margin: 20px 100px;
-
+.mail-link:hover {
+  text-decoration: underline;
 }
-.about-heading{font-family: var(--heading-font-familyL);
-font-size: 48px;
-margin-top:100px;
+
+.main {
+  text-align: center;
+  background: var(--secondary-color);
+  padding: 75px 80px 40px 40px;
 }
-.about-paragraph{font-family: var(--default-font-familyL);
-  
-font-size: 25px;}
 
-.work-heading{margin-top: 55px;
-    margin-bottom: 50px;
-text-align: center;
-font-size: 60px;
-font-family: var(--heading-font-familyL);
-color: white;}
-
-.weatherApp-description{padding: 50px 1px 40px;
-    color: white;
-font-size: 20px;
-font-family: var(--default-font-familyL);}
-
-.body-work{background: linear-gradient(to top, #09203f 0%, #537895 100%);}
-
-footer{margin: 100px 0;}
-
-.footer-email{text-decoration: none;
-color: black;
-font-size: 24px;}
-.footer-email:hover{color: var(--primary-color);}
-
-footer .social-links a{margin: 0 20px;
-color: var(--primary-color);
-background: var(--secondary-color);
-padding: 10px 15px;
-border-radius: 50%;
-font-size: 20px;
-transition: all 100ms ease-in-out;}
-
-footer .social-links a:hover{
-    color: white;
-    background: var(--primary-color);
+.main p {
+  font-size: 28px;
+  font-family: var(--default-font-familyL);
 }
-footer p{
-    font-size: 20px;
+.main h2 {
+  font-size: 30px;
+  color: rgb(71, 48, 48);
+  font-family: var(--default-font-familyL);
 }
-.work-footer{color: white;
-font-size: 20px;}
+.intrudoction {
+  padding: 20px;
+}
+.part {
+  border: 1px solid black;
+}
+.mail-link:hover {
+  text-decoration: underline;
+}
+.intrudoction {
+  line-height: 2;
+  font-size: 20px;
+  font-family: var(--default-font-familyL);
+}
 
-.work-footer-email{color: white;
-font-size: 28px;
-text-decoration: none;}
+@media (max-width: 600px) {
+  .contact-address {
+    font-size: 22px;
+    padding: 30px;
+    display: none;
+  }
+}
+.img-fluid {
+  width: 350px;
+  border-radius: 20px;
+  margin-top: 100px;
+  margin-left: 250px;
+}
+
+.contact-button {
+  text-decoration: none;
+  border: 1px solid var(--primary-color);
+  padding: 10px 30px;
+  border-radius: 5px;
+  background: white;
+  font-size: 20px;
+  position: relative;
+  top: 20px;
+  left: ;
+  color: var(--primary-color);
+}
+
+.contact-button:hover {
+  background: var(--primary-color);
+  color: white;
+}
+
+.project-button {
+  text-decoration: none;
+  border: 1px solid var(--primary-color);
+  padding: 15px 30px;
+  border-radius: 7px;
+  color: white;
+  background: var(--primary-color);
+  font-size: 20px;
+  margin-left: 385px;
+}
+
+.project-button:hover {
+  color: var(--primary-color);
+  background: white;
+}
+.contact-address {
+  font-family: var(--heading-font-familyL);
+  font-size: 40px;
+  margin: 30px 100px;
+}
+.social-media {
+  margin: 20px 100px;
+}
+.about-heading {
+  font-family: var(--heading-font-familyL);
+  font-size: 48px;
+  margin-top: 100px;
+}
+.about-paragraph {
+  font-family: var(--default-font-familyL);
+
+  font-size: 25px;
+}
+
+.work-heading {
+  margin-top: 55px;
+  margin-bottom: 50px;
+  text-align: center;
+  font-size: 60px;
+  font-family: var(--heading-font-familyL);
+  color: white;
+}
+
+.weatherApp-description {
+  padding: 50px 1px 40px;
+  color: white;
+  font-size: 20px;
+  font-family: var(--default-font-familyL);
+}
+
+.body-work {
+  background: linear-gradient(to top, #09203f 0%, #537895 100%);
+}
+
+footer {
+  margin: 100px 0;
+}
+
+.footer-email {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+}
+.footer-email:hover {
+  color: var(--primary-color);
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--primary-color);
+  background: var(--secondary-color);
+  padding: 10px 15px;
+  border-radius: 50%;
+  font-size: 20px;
+  transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  color: white;
+  background: var(--primary-color);
+}
+footer p {
+  font-size: 20px;
+}
+.work-footer {
+  color: white;
+  font-size: 20px;
+}
+
+.work-footer-email {
+  color: white;
+  font-size: 28px;
+  text-decoration: none;
+}
